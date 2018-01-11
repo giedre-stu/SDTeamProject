@@ -28,6 +28,7 @@ public class GameWebPagesResource {
 	 * play a game. Hosted at 'http://localhost:7777/toptrumps/'
 	 * @return
 	 */
+	//first screen seen = selection scene
     public SelectionScreenView getSelectionScreen() {
         return new SelectionScreenView();
     }
@@ -39,6 +40,7 @@ public class GameWebPagesResource {
 	 * Hosted at 'http://localhost:7777/toptrumps/game'
 	 * @return
 	 */
+	//gets template, and return
     public GameScreenView getGameScreen() {
         return new GameScreenView();
     }

@@ -41,7 +41,8 @@ public class TopTrumpsRESTAPI {
 	 * the deck file and the number of AI players.
 	 * @param conf
 	 */
-	public TopTrumpsRESTAPI(TopTrumpsJSONConfiguration conf) {
+	public TopTrumpsRESTAPI(TopTrumpsJSONConfiguration conf) 
+	{
 		// ----------------------------------------------------
 		// Add relevant initalization here
 		// ----------------------------------------------------
